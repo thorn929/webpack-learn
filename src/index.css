@@ -1,0 +1,11 @@
+@import './a.css';
+body{
+    background: pink;
+    /* transform: rotate(45deg); */
+    border: 111px solid red;
+}
+div{
+    width: 300px;
+    height: 400px;
+    background: url('./test.jpg')
+}
