@@ -13,3 +13,7 @@
 ## 优化
 - IgnorePlugin 非常好
 - webpack import 在生产环境下 会利用tree-shaking 把没用的代码自动删除，  require不会
+
+
+## Tapable
+- webpack本质是一种事件流的机制， 它的工作流程就是将各个插件串联起来， 而实现这个一切的核心就是Tapable，Tabable类似于node的events库，核心原理也是依赖于发布订阅模式
